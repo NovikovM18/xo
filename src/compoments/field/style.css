@@ -1,0 +1,23 @@
+.field {
+  width: 80px;
+  height: 80px;
+  background-color: rgb(84, 70, 120);
+  border: 1px solid black;
+  outline: none;
+  font-size: 4rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 300ms;
+}
+.field:hover {
+  background-color: rgb(114, 90, 173);
+  transition: 300ms;
+}
+@media (min-width: 768px) {
+  .field {
+    width: 140px;
+    height: 140px;
+  }
+}

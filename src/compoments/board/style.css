@@ -1,0 +1,13 @@
+.board {
+  width: 240px;
+  height: 240px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: blueviolet;
+}
+@media (min-width: 768px) {
+  .board {
+    width: 420px;
+    height: 420px;
+  }
+}
